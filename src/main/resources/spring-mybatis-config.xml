@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:task="http://www.springframework.org/schema/task"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context-4.3.xsd http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task.xsd">
+
+
+    <!--构建一个C3P0数据源连接池对象-->
+    <bean id="id_ds_c3p0" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="driverClass" value="${c3p0.driverClassName}"></property>
+        <property name="jdbcUrl" value="${c3p0.url}"></property>
+        <property name="user" value="${c3p0.username}"></property>
+        <property name="password" value="${c3p0.password}"></property>
+        <property name="maxPoolSize" value="${c3p0.maxActive}"></property>
+        <property name="initialPoolSize" value="${c3p0.initialSize}"></property>
+        <property name="minPoolSize" value="${c3p0.minPoolSize}"></property>
+    </bean>
+
+    <!--配置SqlSessionFactory-->
+    <bean name="sqlSessionFactory" id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="id_ds_c3p0"></property>
+        <property name="configLocation" value="classpath:mybatis-config.xml"></property>
+        <property name="typeAliasesPackage" value="com.whx.elec8.domain"></property>
+    </bean>
+    <!--有了这个配置，我们就指明了我们的Mapper们，即Dao们，都在哪个包
+         也能使用注解了
+          同时不用写Dao的实现类了
+    -->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.whx.elec8.dao"></property>
+        <property name="sqlSessionFactoryBeanName"  value="sqlSessionFactory"></property>
+    </bean>
+
+
+</beans>

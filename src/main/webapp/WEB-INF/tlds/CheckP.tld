@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.0"
+        xmlns="http://java.sun.com/xml/ns/j2ee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
+         http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd">
+
+    <tlib-version>1.0</tlib-version>
+    <short-name>p</short-name>
+    <!--标签库声明(目前做成静态) -->
+    <uri>http://whx.popedom/jstl/fake</uri>
+
+    <!--单个标签声明-->
+    <tag>
+    <!--标签解释器-->
+        <name>checkP</name>
+        <tag-class>com.whx.elec8.utils.CheckPopeTag</tag-class>
+        <body-content>scriptless</body-content>
+        <!-- 用于传递角色和权限的值 -->
+        <attribute>
+            <!-- 属性名字 -->
+            <name>have</name>
+            <!-- 属性类型 -->
+            <type>java.lang.String</type>
+        </attribute>
+    </tag>
+</taglib>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--引入DTD约束-->
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 开始构建映射-->
+<mapper namespace="com.whx.elec8.dao.DataChartDao">
+    <select id="queryAddData" resultType="com.whx.elec8.domain.ElecFileupload">
+        select * from elec_fileupload
+        <where>
+            <if test='projId!=null and projId!=""'>
+                and projId=#{projId}
+            </if>
+            <if test='belongTo!=null and belongTo!=""'>
+                and belongTo=#{belongTo}
+            </if>
+        </where>
+    </select>
+
+</mapper>

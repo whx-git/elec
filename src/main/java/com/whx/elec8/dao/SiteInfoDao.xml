@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--引入DTD约束-->
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 开始构建映射-->
+<mapper namespace="com.whx.elec8.dao.SiteInfoDao">
+    <sql id="planSQL">
+        <where>
+            <if test='jct!=null and jct!=""'>
+                and JctID=#{jct}
+            </if>
+            <if test='stationName!=null and stationName!=""'>
+                and StationName=#{stationName}
+            </if>
+            <if test='stationCode!=null and stationCode!=""'>
+                and StationCode like '%${stationCode}%'
+            </if>
+            <if test='stationType!=null and stationType!=""'>
+                and StationType=#{stationType}
+            </if>
+            <if test='contactType!=null and contactType!=""'>
+                and ContactType like '%${contactType}%'
+            </if>
+            <if test='attributionGround!=null and attributionGround!=""'>
+                and AttributionGround like '%${attributionGround}%'
+            </if>
+        </where>
+    </sql>
+
+    <select id="queryCountsCondition" resultType="Long">
+        select count(*) from elec_station
+        <include refid="planSQL"/>
+    </select>
+
+    <select id="queryDatasCondition" resultType="com.whx.elec8.domain.ElecStation">
+        select * from where elec_station
+        <include refid="planSQL"/>
+        limit #{startPos},#{size}
+    </select>
+</mapper>

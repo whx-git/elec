@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:task="http://www.springframework.org/schema/task"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+         http://www.springframework.org/schema/task
+         http://www.springframework.org/schema/task/spring-task.xsd
+         http://www.springframework.org/schema/tx
+         http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+     <!--指明注解的扫描包，即将来去哪个包里找注解
+     SpringIoC只管扫描service和dao即可
+     -->
+     <context:component-scan base-package="com.whx.elec8.service,com.whx.elec8.dao">
+     </context:component-scan>
+
+     <!--  引入外部的一个配置文件，这个文件里放的全都是C3P0数据源连接池的配置-->
+     <context:property-placeholder location="classpath:c3p0-config.properties,classpath:redis.properties,
+               classpath:solr.properties" ></context:property-placeholder>
+
+     <import resource="classpath:spring-mybatis-config.xml"></import>
+     <import resource="classpath:spring-redis-config.xml"></import>
+
+     <bean id="id_txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+          <property name="dataSource" ref="id_ds_c3p0"></property>
+     </bean>
+
+     <tx:annotation-driven transaction-manager="id_txManager"></tx:annotation-driven>
+
+     <!--定义solr的server-->
+     <bean id="httpSolrServer" class="org.apache.solr.client.solrj.impl.HttpSolrServer">
+          <constructor-arg index="0" value="${solr.Url}"/>
+          <!-- 设置响应解析器 -->
+          <property name="parser">
+               <bean class="org.apache.solr.client.solrj.impl.XMLResponseParser"/>
+          </property>
+          <!-- 设置重试次数-->
+          <property name="maxRetries" value="${solr.maxRetries}"/>
+          <!-- 建立连接的最长时间 -->
+          <property name="connectionTimeout" value="${solr.connectionTimeout}"/>
+     </bean>
+
+</beans>
