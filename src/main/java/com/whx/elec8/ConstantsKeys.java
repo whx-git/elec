@@ -24,4 +24,8 @@ public class ConstantsKeys {
     public static final String SESSION_PLAN_EX_ITEMS="planexs";
     public static final String SESSION_PLAN_NOEX_ITEMS="plannoexs";
 
+    public static final String SESSION_SITE_EX_ITEMS="sites";
+    public static final String SESSION_SITE_NOEX_ITEMS="nosites";
+
+
 }

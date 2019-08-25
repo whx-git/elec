@@ -28,12 +28,14 @@
   </head>
   
   <body onload="successInit()">
-    <form name="importForm" method="post" action="/station/excelImport.do" enctype="multipart/form-data">
+    <form name="importForm" method="post" action="/siteImport.html" enctype="multipart/form-data">
       <br>
       <table border="0" width="100%" cellspacing="0" cellpadding="0">
       	<tr>
       		<td class="ta_01" align="center" background="${pageContext.request.contextPath }/images/b-info.gif" colspan=4>
-				<font face="宋体" size="2"><strong>Excel文件数据导入</strong></font>
+				<font face="宋体" size="2"><strong>Excel文件数据导入
+
+                </strong></font>
 			</td>
 		</tr>
 		<tr>
@@ -45,7 +47,7 @@
         <tr>
           <td width="1%"></td>
           <td width="15%" align="center">请选择文件:</td>
-          <td width="83%" align="left"><input type="file" name="files" value="" style="width:365px"></td>
+            <td width="83%" align="left"><input type="file" name="file" value="" style="width:365px" accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"></td>
           <td width="1%"></td>
         </tr>
         <tr height=50><td colspan=4 ></td></tr>
@@ -59,8 +61,8 @@
         </tr>
       </table>
       
-	<TABLE cellspacing="1" cellpadding="0" width="90%" align="center" bgcolor="#ffffff" border="0">		
-		
+	<TABLE cellspacing="1" cellpadding="0" width="90%" align="center" bgcolor="#ffffff" border="0">
+        <span style="color: red">${resultInfo}</span>
 	</TABLE>
     </form>
   </body>

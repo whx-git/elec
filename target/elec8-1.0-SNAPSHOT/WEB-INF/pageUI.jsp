@@ -1,6 +1,7 @@
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <script src="/script/page.js"></script>
+
 <table border="0" width="100%" cellspacing="0" cellpadding="0">
 
     <tr>

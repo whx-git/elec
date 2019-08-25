@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--引入DTD约束-->
+
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<!-- 开始构建映射-->
 <mapper namespace="com.whx.elec8.dao.SiteInfoDao">
-    <sql id="planSQL">
+    <sql id="sql">
         <where>
             <if test='jct!=null and jct!=""'>
                 and JctID=#{jct}
             </if>
-            <if test='stationName!=null and stationName!=""'>
-                and StationName=#{stationName}
+            <if test='stationNames!=null and stationNames!=""'>
+                and StationName=#{stationNames}
             </if>
             <if test='stationCode!=null and stationCode!=""'>
                 and StationCode like '%${stationCode}%'
@@ -29,14 +28,18 @@
         </where>
     </sql>
 
-    <select id="queryCountsCondition" resultType="Long">
+    <select id="queryCountsCondition" resultType="long">
         select count(*) from elec_station
-        <include refid="planSQL"/>
+        <include refid="sql"/>
     </select>
 
     <select id="queryDatasCondition" resultType="com.whx.elec8.domain.ElecStation">
-        select * from where elec_station
-        <include refid="planSQL"/>
+        select * from elec_station
+        <include refid="sql"/>
         limit #{startPos},#{size}
+    </select>
+    <select id="querySiteInfoCondition" resultType="com.whx.elec8.domain.ElecStation">
+        select * from elec_station
+        <include refid="sql"/>
     </select>
 </mapper>

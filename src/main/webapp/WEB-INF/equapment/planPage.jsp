@@ -24,7 +24,7 @@
             <input name="BT_Search" type="button" style="font-size:12px; color:black; height=20;width=50" id="BT_Search" value="查询"  onclick="searchplan()"/>
 
             <input name="BT_Add" type="button" style="font-size:12px; color:black; height=20;width=50" id="BT_Add" onClick="openWindow('planAdd.jsp',800,450);" value="添加" />
-            <input name="BT_import" type="button" style="font-size:12px; color:black; height=20;width=50" id="BT_import" onClick="openWindow('planImport.jsp','600','450');" value="导入">
+            <input name="BT_import" type="button" style="font-size:12px; color:black; height=20;width=50" id="BT_import" onClick="openWindow('planImportView.html','600','450');" value="导入">
 
 
 

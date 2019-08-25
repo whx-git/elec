@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 
 <%@ page language="java" pageEncoding="UTF-8"%>
@@ -47,7 +48,7 @@
 			return false; 
         }
 		 
-	   document.Form1.action="stationEdit.do";
+	   document.Form1.action="/modifySiteInfo.html?stationid=${station.stationid}";
 	   document.Form1.submit();
 	   //window.setTimeout(refreshThisOpener('stationInfo.do'),3000);
 		
@@ -68,6 +69,7 @@
      <tr>
 		<td class="ta_01" align="center" colSpan="4" background="${pageContext.request.contextPath }/images/b-info.gif">
 		 <font face="宋体" size="2"><strong>站点信息编辑</strong></font>
+            <font style="color: red">${resultInfo}</font>
 		</td>
      </tr>
     <tr>
@@ -79,116 +81,64 @@
        
         <select name="jctId" id="jctId" style="width:155px">
 		
-		<option value="0">全部</option>
-		
-		
-		
-		
-		<option value="1">北京</option>	
-		
-		<option value="2">上海</option>	
-		
-		<option value="3">深圳</option>	
-		
-		<option value="4">厦门</option>	
-		
-		<option value="5">成都</option>	
-		
-		<option value="6">海尔滨</option>	
-		
-		<option value="7">长春</option>	
-		
-		<option value="8">沈阳</option>	
-		
-		<option value="9">广州</option>	
-		
-		<option value="10">西安</option>	
-		
-		<option value="11">南宁</option>	
-		
-		<option value="12" selected="selected">天津</option>	
-		
-		<option value="13">海南</option>	
-		
-				
+		<option value="">全部</option>
+        <c:forEach items="${jctids}" var="jctid">
+            <c:if test="${jctid.ddlname.equals(station.jctid)}">
+                <option value="${jctid.ddlname}" selected="selected">${jctid.ddlname}</option>
+            </c:if>
+            <option value="${jctid.ddlname}">${jctid.ddlname}</option>
+        </c:forEach>
+
 		</select> <font color="#FF0000">*</font> 
 </td>
 <td width="15%" height="22" align="center" bgColor="#f5fafe" class="ta_01">站点名称：</td>
 <td width="35%" class="ta_01" bgColor="#ffffff">
-<input name="stationName" type="text" id="stationName"  size="20" maxlength="25" value="maradona"> <font color="#FF0000">*</font></td>
+<input name="stationName" type="text" id="stationName"  size="20" maxlength="25" value="${station.stationname}"> <font color="#FF0000">*</font></td>
 </tr>
 <tr> 
   <td width="15%" height="22" align="center" bgColor="#f5fafe" class="ta_01">站点代号：</td>
-  <td width="35%" class="ta_01" bgColor="#ffffff"><input name="stationCode" type="text" id="Text2"  size="20" maxlength="25" value="maradona"> <font color="#FF0000">*</font></td>
+  <td width="35%" class="ta_01" bgColor="#ffffff"><input name="stationCode" type="text" id="Text2"  size="20" maxlength="25" value="${station.stationcode}"> <font color="#FF0000">*</font></td>
   <td width="15%" height="22" align="center" bgColor="#f5fafe" class="ta_01">使用时间：</td>
   <td width="35%" class="ta_01" bgColor="#ffffff" height="30">
-  <input name="useStartDate" type="text"  size="20" value="2008-06-04" onclick="WdatePicker()"></td>
+  <input name="useStartDate" type="text"  size="20" value="${station.usestartdate}" onclick="WdatePicker()"></td>
  </tr>
 <tr> 
   <td width="15%" height="22" align="center" bgColor="#f5fafe" class="ta_01">安装地点：</td>
   <td width="35%" class="ta_01" bgColor="#ffffff">
-  <input name="jcfrequency" type="text" id="jcfrequency"  size="20" maxlength="50" value="maradona"></td>
+  <input name="jcfrequency" type="text" id="jcfrequency"  size="20" maxlength="50" value="${station.jcfrequency}"></td>
   <td width="15%" height="22" align="center" bgColor="#f5fafe" class="ta_01">生产厂家：</td>
   <td width="35%" class="ta_01" bgColor="#ffffff">
-   <input name="produceHome" type="text" id="produceHome"  size="20" maxlength="25" value="maradona"></td>
+   <input name="produceHome" type="text" id="produceHome"  size="20" maxlength="25" value="${station.producehome}"></td>
  </tr>
  <tr> 
   <td width="15%" height="22" align="center" bgColor="#f5fafe" class="ta_01">通讯方式：</td>
   <td width="35%" class="ta_01" bgColor="#ffffff">
-  <input name="contactType" type="text" id="contactType"  size="20" maxlength="25" value="maradona"></td>
+  <input name="contactType" type="text" id="contactType"  size="20" maxlength="25" value="${station.contacttype}"></td>
   <td width="15%" height="22" align="center" bgColor="#f5fafe" class="ta_01">站点类别：</td>
   <td  width="35%" class="ta_01" bgColor="#ffffff" height="30">
                     <select name="stationType" id="stationType" style="width:160px">
 					<option value="0">全部</option>
-					
+					<c:forEach items="${stationType}" var="type">
+                        <c:if test="${type.ddlname.equals(station.stationtype)}">
+                            <option value="${type.ddlname}"  selected>${type.ddlname}</option>
+                        </c:if>
+                        <option value="${type.ddlname}">${type.ddlname}</option>
+                    </c:forEach>
 							
-					
-		           <option value="1"  selected>国内遥控站</option>	
-		            
-		            
-		            
-					
-							
-					
-		            
-		            <option value="3">国内采集点</option>	
-		            
-		            
-					
-							
-					
-		            
-		            <option value="4">国内</option>	
-		            
-		            
-					
-							
-					
-		            
-		            <option value="5">国外</option>	
-		            
-		            
-					
-							
-					
-		            
-		            <option value="2">海外遥控站</option>	
-		            
-		            
-						
+
 					</select><font color="#FF0000">*</font></td>
   </tr>
 
 <tr> 
   <td width="15%" height="22" align="center" bgColor="#f5fafe" class="ta_01">归属地：</td>
-  <td width="35%" class="ta_01" bgColor="#ffffff"><input name="contactType" type="text" id="contactType"  size="20" maxlength="25" value="maradona"></td>
+  <td width="35%" class="ta_01" bgColor="#ffffff"><input name="attributionGround" type="text" id="attributionGround"  size="20" maxlength="25" value="${station.attributionground}"></td>
   <td width="15%" height="22" align="center" bgColor="#ffffff" class="ta_01"></td>
   <td width="35%" class="ta_01" bgColor="#ffffff" height="30"></td>
 </tr>  
 <tr>
 	<td width="15%" class="ta_01" align="center" bgcolor="#f5fafe">备&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;注：</td>
 	<td width="85%" class="ta_01" bgcolor="#ffffff" colspan="3">
-		<textarea name="comment" id="comment" style="width:100%" style="word-break: break-all"  rows="4">二期</textarea></td>
+		<textarea name="comment" id="comment" style="width:100%" style="word-break: break-all"  rows="4">${station.comment}</textarea></td>
 </tr>
 
 

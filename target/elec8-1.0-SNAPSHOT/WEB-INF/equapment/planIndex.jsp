@@ -212,11 +212,6 @@ function  exportplan(){
 										<option value="${jctid.ddlname}">${jctid.ddlname}</option>
 									</c:forEach>
 
-		
-
-											
-				                  
-				                  
 												
 					             </select>
 								</td>

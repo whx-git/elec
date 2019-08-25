@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="elec8" />
         <module name="elec2" />
+        <module name="elec8" />
       </profile>
     </annotationProcessing>
   </component>

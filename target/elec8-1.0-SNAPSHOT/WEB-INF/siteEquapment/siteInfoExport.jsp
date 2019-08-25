@@ -1,4 +1,4 @@
-
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 
 <%@ page language="java" pageEncoding="UTF-8"%>
@@ -163,25 +163,25 @@
      
      function checksubmit(){
        
-       if(document.Form1.names.value==""||document.Form1.fields.value==""){
-       
-          alert("请至少选择一列作为导出列");
-          return;
-       }
-       var moduleid = document.getElementById("belongTo").value;
-       var strUrl = "";
-       
-       //站点运行情况导出
-       if(moduleid == "2-0"){
-       		strUrl = "saveSetExportExcel.do";
-       //站点基本信息导出
-       }else if (moduleid == "2-1"){
-       		strUrl = "saveSetStationExportExcel.do";
-       	}
-       	document.Form1.action=strUrl;
+       // if(document.Form1.names.value==""||document.Form1.fields.value==""){
+       //
+       //    alert("请至少选择一列作为导出列");
+       //    return;
+       // }
+       // var moduleid = document.getElementById("belongTo").value;
+       // var strUrl = "";
+       //
+       // //站点运行情况导出
+       // if(moduleid == "2-0"){
+       // 		strUrl = "saveSetExportExcel.do";
+       // //站点基本信息导出
+       // }else if (moduleid == "2-1"){
+       // 		strUrl = "saveSetStationExportExcel.do";
+       // 	}
+       	document.Form1.action="/saveExpoetInfo.html";
         document.Form1.submit();   
-        alert("导出设置修改成功！");   
-        window.close();
+        // alert("导出设置修改成功！");
+        // window.close();
 
      }
      
@@ -194,7 +194,9 @@
    <table border="0" width="100%" cellspacing="0" cellpadding="0">
 	<tr>
 		<td class="ta_01" align="center" background="${pageContext.request.contextPath }/images/b-info.gif">
-			<font face="宋体" size="2"><strong>导出字段设置</strong></font>
+			<font face="宋体" size="2"><strong>导出字段设置
+                <span style="color: red">${resultInfo}</span>
+            </strong></font>
 		</td>
 	</tr>
 	<tr height=10><td></td></tr>
@@ -218,7 +220,10 @@
                   <td width="30%" rowspan="4">
                   
                   <select size="15" name="colname1" multiple style="width:200px" id="colname1" ondblclick="JavaScript:Add('colname1','colname2','colname')">
+                      <c:forEach items="${noExports}" var="noexport">
+                          <option value="${noexport.dbName}" >${noexport.excelName}</option>
 
+                      </c:forEach>
                   
                   </select>
                    </td> 
@@ -228,28 +233,12 @@
                   
                    <select size="15" name="colname2" id="colname2" multiple style="width:200px" ondblclick="JavaScript:Remove('colname1','colname2','colname')">
                   
-                           <option value="Sar_Station.StationName" >站点名称</option>
+
                   
-                           <option value="Sar_Station.Comment" >备注</option>
-                  
-                           <option value="Sar_Station.ProduceHome" >生产厂家</option>
-                  
-                           <option value="stationType.ddlName" >站点类别</option>
-                  
-                           <option value="Sar_Station.StationCode" >站点代号</option>
-                  
-                           <option value="jct.ddlName" >所属单位</option>
-                  
-                           <option value="Sar_Station.JCFrequency" >安装地点</option>
-                  
-                           <option value="Sar_Station.ContactType" >通讯方式</option>
-                  
-                           <option value="convert(varchar(100),Sar_Station.UseStartDate,23)" >开始使用时间</option>
-                  
-                           <option value="Sar_Station.AttributionGround" >归属地</option>
-                  
-                           <option value="Sar_Station.period" >归属期</option>
-                  
+                           <c:forEach items="${exports}" var="export">
+                               <option value="${export.dbName}" >${export.excelName}</option>
+
+                           </c:forEach>
                    </select>
                    </td>  
                    
@@ -274,7 +263,7 @@
                   </tr>
   
                   <tr><td width="73">
-	                   <INPUT type="hidden"  name="belongTo"  id="belongTo"  value="3-1">
+<%--	                   <INPUT type="hidden"  name="belongTo"  id="belongTo"  value="3-1">--%>
 	                   <INPUT type="hidden"  name="expNameList"  id="expNameList"  value="">
 	                   <INPUT type="hidden"  name="expFieldName" id="expFieldName"  value="">
 	                   <INPUT type="hidden"  name="noExpNameList"  id="noExpNameList"  value="">

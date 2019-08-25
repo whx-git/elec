@@ -11,890 +11,56 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/whx/elec8/service/impls/DataChartServiceImpl.java" line="31" mnemonic="2" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79210f06-7b3c-4cf8-8e54-9a9bfc0fb7fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/ConstantsKeys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/controller/DDLController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/controller/DataChartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/controller/DevicePlanController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/controller/MenuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/controller/RoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/controller/SiteInfoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/controller/vo/DevPlanSearchVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/controller/vo/SiteInfoVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/dao/DDlDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/dao/DataChartDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/dao/DataChartDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/dao/DevicePlanDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/dao/DevicePlanDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/dao/RoleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/dao/SIteInfoDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/dao/SiteInfoDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/domain/ElecAntenna.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/domain/ElecApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/domain/ElecApplicationTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/domain/ElecApproveinfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/domain/ElecCommonmsg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/domain/ElecDevice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/domain/ElecDevicePlan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/domain/ElecEngineering.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/domain/ElecEngineeringPlan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/domain/ElecEngineeringPlanHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/domain/ElecExportfields.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/domain/ElecFileupload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/domain/ElecJctbuild.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/domain/ElecLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/domain/ElecMaintainplan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/domain/ElecOverhaulRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/domain/ElecPopedom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/domain/ElecPopedomKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/domain/ElecProject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/domain/ElecProjectDeclare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/domain/ElecProjectLayout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/domain/ElecProjectPlan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/domain/ElecRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/domain/ElecRolePopedomKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/domain/ElecStation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/domain/ElecStationbug.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/domain/ElecSubengineering.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/domain/ElecSubengineeringPlan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/domain/ElecSubengineeringPlanHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/domain/ElecSystemddl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/domain/ElecText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/domain/ElecUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/domain/LoginResultInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/interceptors/UserInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/service/DDlService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/service/DataChartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/service/DevicePlanService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/service/RoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/service/SiteInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/service/bo/ExportSettingItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/service/impls/DDlServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/service/impls/DataChartServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/service/impls/DevicePlanServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/service/impls/RoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/service/impls/SiteInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/service/impls/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/utils/CheckPopeTag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/utils/DateTimeUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/utils/MD5Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/utils/UtilSetUrl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/utils/doPage/PageBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/utils/doPage/UtilPageBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/c3p0-config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/redis.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/solr.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-redis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/springmvc-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/My97DatePicker/My97DatePicker.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/My97DatePicker/WdatePicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/My97DatePicker/calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/My97DatePicker/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/My97DatePicker/lang/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/My97DatePicker/lang/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/My97DatePicker/lang/zh-tw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/My97DatePicker/skin/WdatePicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/My97DatePicker/skin/datePicker.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/My97DatePicker/skin/default/datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/My97DatePicker/skin/default/img.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/My97DatePicker/skin/whyGreen/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/My97DatePicker/skin/whyGreen/datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/My97DatePicker/skin/whyGreen/img.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/building/buildingAdd.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/building/buildingEdit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/building/buildingExport.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/building/buildingIndex.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/building/buildingView.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dataChart/dataChartAdd.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dataChart/dataChartAddList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dataChart/dataChartIndex.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/equapment/adjustAdd.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/equapment/adjustEdit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/equapment/adjustExport.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/equapment/adjustFile.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/equapment/adjustIndex.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/equapment/adjustMoreAdd.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/equapment/adjustMoreAddList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/equapment/adjustQuery.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/equapment/equapmentEdit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/equapment/equapmentExport.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/equapment/equapmentIndex.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/equapment/equapmentView.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/equapment/planAdd.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/equapment/planEdit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/equapment/planExport.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/equapment/planImport.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/equapment/planIndex.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/equapment/planPage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/equapment/planView.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/equapment/repairAdd.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/equapment/repairEdit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/equapment/repairExport.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/equapment/repairFile.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/equapment/repairIndex.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/equapment/repairMoreAdd.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/equapment/repairMoreAddList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/equapment/repairQuery.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/menu/alermDevice.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/menu/alermStation.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/menu/change.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/menu/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/menu/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/menu/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/menu/left.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/menu/loading.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/menu/title.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pageUI.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteInfoAdd.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteInfoEdit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteInfoExport.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteInfoImport.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteInfoIndex.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteInfoPage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteInfoView.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteMaintainAdd.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteMaintainEdit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteMaintainFile.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteMaintainIndex.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteMaintainView.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteRunEdit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteRunExport.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteRunFile.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteRunImport.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteRunIndex.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteRunTime.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteRunView.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteStateAdd.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteStateEdit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteStateFile.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteStateIndex.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/system/actingIndex.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/system/dictionaryEdit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/system/dictionaryIndex.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/system/exportExcel.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/system/roleEdit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/system/roleIndex.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/system/textAdd.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/system/userAdd.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/system/userEdit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/system/userIndex.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tlds/CheckP.tld" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/workflow/applicationTemplateAdd.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/workflow/applicationTemplateEdit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/workflow/applicationTemplateList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/workflow/flowApprove.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/workflow/flowApprovedHistory.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/workflow/flowApprovedHistoryPic.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/workflow/flowMyApplicationList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/workflow/flowMyTaskList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/workflow/flowSubmitApplication.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/workflow/flowTemplateList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/workflow/processDefinitionAdd.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/workflow/processDefinitionList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/close.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/Font.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/MainPage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/Style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/buttonstyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/openView.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/showText.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/checkbox.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/edit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/flag/10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/flag/1_close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/flag/1_open.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/flag/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/flag/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/flag/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/flag/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/flag/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/flag/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/flag/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/flag/9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/folder_Close.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/folder_Open.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/line_bottom.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/line_center.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/line_conn.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/line_top.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/minus_bottom.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/minus_center.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/minus_noLine.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/minus_root.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/minus_top.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/moveArrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/page.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/plus_bottom.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/plus_center.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/plus_noLine.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/plus_root.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/plus_top.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/radio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/remove.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/sim/10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/sim/1_close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/sim/1_open.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/sim/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/sim/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/sim/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/sim/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/sim/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/sim/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/sim/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/sim/9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/zTreeIcons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/zTreeStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/image.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/MenuIcon/daibanshiyi.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/MenuIcon/daiwoshenpi.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/MenuIcon/jiancetaijianzhu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/MenuIcon/jiancetaijianzhuguanli.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/MenuIcon/jishusheshiweihuguanli.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/MenuIcon/jishuziliaotuzhiguanli.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/MenuIcon/jueseguanli.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/MenuIcon/menu_arrow_close.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/MenuIcon/menu_arrow_open.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/MenuIcon/menu_arrow_single.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/MenuIcon/menu_line_2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/MenuIcon/menu_line_3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/MenuIcon/qicaoshenqing.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/MenuIcon/shebeigouzhijihua.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/MenuIcon/shebeijiaozhunjianxiu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/MenuIcon/shenpiliuchengguanli.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/MenuIcon/shenpiliuzhuanguanli.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/MenuIcon/shenqingmobanguanli.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/MenuIcon/shujuzidianguanli.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/MenuIcon/weihuqingkuang.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/MenuIcon/wodeshenqingchaxun.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/MenuIcon/xitongguanli.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/MenuIcon/yiqishebeiguanli.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/MenuIcon/yonghuguanli.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/MenuIcon/yunxingqingkuang.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/MenuIcon/zhandianjibenxinxi.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/MenuIcon/zhuandianshebeiyunxingguanli.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/MenuIcon/ziliaotuzhiguanli.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/add.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/attach.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b-info.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/back1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/build.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/button_add.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/button_cancel.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/button_ok.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/button_view.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/check.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/cotNavGround.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/delete.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/doc.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/edit.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/gif.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/handle.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/headpic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/hotel_dire_arrowc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/i_del.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/i_edit.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/ie.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/index.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/loginbg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/menu03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/mima.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/mis_01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/open.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/remeber.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/sel1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/tablehead.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/title.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/titleline.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/yin.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/yonghu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/you.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/zhuyi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/zoom.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/zuo.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/pageUI.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/script/calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/script/calendarTime.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/script/changePage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/script/changePageBackUp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/script/function.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/script/highslide/graphics/controlbar2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/script/highslide/graphics/controlbar3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/script/highslide/graphics/controlbar4-hover.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/script/highslide/graphics/controlbar4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/script/highslide/graphics/fullexpand.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/script/highslide/graphics/loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/script/highslide/graphics/loader.white.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/script/highslide/graphics/outlines/Outlines.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/script/highslide/graphics/outlines/beveled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/script/highslide/graphics/outlines/drop-shadow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/script/highslide/graphics/outlines/outer-glow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/script/highslide/graphics/outlines/rounded-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/script/highslide/graphics/zoomin.cur" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/script/highslide/graphics/zoomout.cur" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/script/highslide/highslide-html.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/script/highslide/highslide-html.packed.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/script/highslide/highslide.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/script/highslide/highslide.packed.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/script/highslide/swfobject.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/script/jquery-1.4.2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/script/jquery-ztree-2.5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/script/limitedTextarea.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/script/listselect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/script/menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/script/menuData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/script/mztree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/script/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/script/pagination.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/script/pub.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/script/public.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/script/showText.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/script/tabletool.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/script/tool.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/script/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/script/validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/script/web_tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/c3p0-config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/ConstantsKeys.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/controller/DDLController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/controller/DataChartController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/controller/DevicePlanController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/controller/MenuController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/controller/RoleController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/controller/SiteInfoController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/controller/vo/DevPlanSearchVo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/controller/vo/SiteInfoVo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/dao/DDlDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/dao/DataChartDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/dao/DevicePlanDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/dao/RoleDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/dao/SIteInfoDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/dao/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/domain/ElecAntenna.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/domain/ElecApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/domain/ElecApplicationTemplate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/domain/ElecApproveinfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/domain/ElecCommonmsg.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/domain/ElecDevice.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/domain/ElecDevicePlan.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/domain/ElecEngineering.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/domain/ElecEngineeringPlan.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/domain/ElecEngineeringPlanHistory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/domain/ElecExportfields.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/domain/ElecFileupload.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/domain/ElecJctbuild.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/domain/ElecLog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/domain/ElecMaintainplan.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/domain/ElecOverhaulRecord.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/domain/ElecPopedom.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/domain/ElecPopedomKey.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/domain/ElecProject.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/domain/ElecProjectDeclare.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/domain/ElecProjectLayout.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/domain/ElecProjectPlan.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/domain/ElecRole.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/domain/ElecRolePopedomKey.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/domain/ElecStation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/domain/ElecStationbug.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/domain/ElecSubengineering.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/domain/ElecSubengineeringPlan.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/domain/ElecSubengineeringPlanHistory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/domain/ElecSystemddl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/domain/ElecText.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/domain/ElecUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/domain/LoginResultInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/interceptors/UserInterceptor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/service/DDlService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/service/DataChartService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/service/DevicePlanService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/service/RoleService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/service/SiteInfoService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/service/bo/ExportSettingItem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/service/impls/DDlServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/service/impls/DataChartServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/service/impls/DevicePlanServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/service/impls/RoleServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/service/impls/SiteInfoServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/service/impls/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/utils/CheckPopeTag.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/utils/DateTimeUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/utils/MD5Utils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/utils/UtilSetUrl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/utils/doPage/PageBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/utils/doPage/UtilPageBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/redis.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/solr.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/spring-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/spring-mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/spring-redis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/springmvc-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/My97DatePicker/My97DatePicker.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/My97DatePicker/WdatePicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/My97DatePicker/calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/My97DatePicker/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/My97DatePicker/lang/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/My97DatePicker/lang/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/My97DatePicker/lang/zh-tw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/My97DatePicker/skin/WdatePicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/My97DatePicker/skin/datePicker.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/My97DatePicker/skin/default/datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/My97DatePicker/skin/default/img.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/My97DatePicker/skin/whyGreen/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/My97DatePicker/skin/whyGreen/datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/My97DatePicker/skin/whyGreen/img.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/building/buildingAdd.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/building/buildingEdit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/building/buildingExport.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/building/buildingIndex.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/building/buildingView.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/META-INF/elec8.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/c3p0-config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/itszt/elec8/ConstantsKeys.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/itszt/elec8/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/itszt/elec8/dao/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/itszt/elec8/domain/ElecAntenna.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/itszt/elec8/domain/ElecApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/itszt/elec8/domain/ElecApplicationTemplate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/itszt/elec8/domain/ElecApproveinfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/itszt/elec8/domain/ElecCommonmsg.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/itszt/elec8/domain/ElecDevice.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/itszt/elec8/domain/ElecDevicePlan.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/itszt/elec8/domain/ElecEngineering.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/itszt/elec8/domain/ElecEngineeringPlan.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/itszt/elec8/domain/ElecEngineeringPlanHistory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/itszt/elec8/domain/ElecExportfields.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/itszt/elec8/domain/ElecFileupload.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/itszt/elec8/domain/ElecJctbuild.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/itszt/elec8/domain/ElecLog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/itszt/elec8/domain/ElecMaintainplan.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/itszt/elec8/domain/ElecOverhaulRecord.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/itszt/elec8/domain/ElecPopedom.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/itszt/elec8/domain/ElecPopedomKey.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/itszt/elec8/domain/ElecProject.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/itszt/elec8/domain/ElecProjectDeclare.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/itszt/elec8/domain/ElecProjectLayout.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/itszt/elec8/domain/ElecProjectPlan.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/itszt/elec8/domain/ElecRole.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/itszt/elec8/domain/ElecRolePopedomKey.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/itszt/elec8/domain/ElecStation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/itszt/elec8/domain/ElecStationbug.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/itszt/elec8/domain/ElecSubengineering.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/itszt/elec8/domain/ElecSubengineeringPlan.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/itszt/elec8/domain/ElecSubengineeringPlanHistory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/itszt/elec8/domain/ElecSystemddl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/itszt/elec8/domain/ElecText.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/itszt/elec8/domain/ElecUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/itszt/elec8/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/itszt/elec8/service/impls/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/itszt/elec8/utils/MD5Utils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/ConstantsKeys.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/controller/DDLController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/controller/DataChartController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/controller/DevicePlanController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/controller/MenuController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/controller/RoleController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/controller/SiteInfoController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/controller/vo/DevPlanSearchVo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/controller/vo/SiteInfoVo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/dao/DDlDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/dao/DataChartDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/dao/DataChartDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/dao/DevicePlanDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/dao/DevicePlanDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/dao/RoleDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/dao/SIteInfoDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/dao/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/domain/ElecAntenna.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/domain/ElecApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/domain/ElecApplicationTemplate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/domain/ElecApproveinfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/domain/ElecCommonmsg.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/domain/ElecDevice.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/domain/ElecDevicePlan.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/domain/ElecEngineering.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/domain/ElecEngineeringPlan.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/domain/ElecEngineeringPlanHistory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/domain/ElecExportfields.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/domain/ElecFileupload.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/domain/ElecJctbuild.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/domain/ElecLog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/domain/ElecMaintainplan.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/domain/ElecOverhaulRecord.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/domain/ElecPopedom.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/domain/ElecPopedomKey.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/domain/ElecProject.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/domain/ElecProjectDeclare.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/domain/ElecProjectLayout.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/domain/ElecProjectPlan.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/domain/ElecRole.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/domain/ElecRolePopedomKey.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/domain/ElecStation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/domain/ElecStationbug.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/domain/ElecSubengineering.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/domain/ElecSubengineeringPlan.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/domain/ElecSubengineeringPlanHistory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/domain/ElecSystemddl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/domain/ElecText.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/domain/ElecUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/domain/LoginResultInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/interceptors/UserInterceptor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/service/DDlService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/service/DataChartService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/service/DevicePlanService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/service/RoleService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/service/SiteInfoService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/service/bo/ExportSettingItem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/service/impls/DDlServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/service/impls/DataChartServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/service/impls/DevicePlanServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/service/impls/RoleServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/service/impls/SiteInfoServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/service/impls/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/utils/CheckPopeTag.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/utils/DateTimeUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/utils/MD5Utils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/utils/UtilSetUrl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/utils/doPage/PageBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/utils/doPage/UtilPageBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/redis.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/solr.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/spring-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/spring-mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/spring-redis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/springmvc-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/dataChart/dataChartAdd.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/dataChart/dataChartAddList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/dataChart/dataChartIndex.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/equapment/adjustAdd.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/equapment/adjustEdit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/equapment/adjustExport.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/equapment/adjustFile.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/equapment/adjustIndex.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/equapment/adjustMoreAdd.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/equapment/adjustMoreAddList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/equapment/adjustQuery.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/equapment/equapmentEdit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/equapment/equapmentExport.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/equapment/equapmentIndex.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/equapment/equapmentView.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/equapment/planAdd.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/equapment/planEdit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/equapment/planExport.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/equapment/planImport.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/equapment/planIndex.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/equapment/planPage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/equapment/planView.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/equapment/repairAdd.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/equapment/repairEdit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/equapment/repairExport.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/equapment/repairFile.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/equapment/repairIndex.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/equapment/repairMoreAdd.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/equapment/repairMoreAddList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/equapment/repairQuery.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/c3p0-0.9.5.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/commons-codec-1.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/commons-collections4-4.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/commons-fileupload-1.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/commons-io-1.3.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/commons-lang3-3.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/commons-pool2-2.4.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/curvesapi-1.04.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/fastjson-1.2.47.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/httpclient-4.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/httpcore-4.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/httpmime-4.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.8.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.8.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.8.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/jcl-over-slf4j-1.7.25.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/jedis-2.9.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/mchange-commons-java-0.2.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.2.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-1.2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.18.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/noggit-0.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/poi-3.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/poi-ooxml-3.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/poi-ooxml-schemas-3.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/solr-solrj-4.10.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.3.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.3.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.3.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/spring-context-support-4.3.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.3.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/spring-data-commons-1.13.9.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/spring-data-keyvalue-1.2.9.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/spring-data-redis-1.8.9.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.3.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.3.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/spring-oxm-4.3.13.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/spring-test-4.3.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.3.13.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.3.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.3.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/stax-api-1.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/wstx-asl-3.2.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/xmlbeans-2.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/lib/zookeeper-3.4.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/menu/alermDevice.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/menu/alermStation.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/menu/change.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/menu/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/menu/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/menu/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/menu/left.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/menu/loading.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/menu/title.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/pageUI.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/siteEquapment/siteInfoAdd.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/siteEquapment/siteInfoEdit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/siteEquapment/siteInfoExport.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/siteEquapment/siteInfoImport.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/siteEquapment/siteInfoIndex.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/siteEquapment/siteInfoPage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/siteEquapment/siteInfoView.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/siteEquapment/siteMaintainAdd.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/siteEquapment/siteMaintainEdit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/siteEquapment/siteMaintainFile.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/siteEquapment/siteMaintainIndex.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/siteEquapment/siteMaintainView.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/siteEquapment/siteRunEdit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/siteEquapment/siteRunExport.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/siteEquapment/siteRunFile.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/siteEquapment/siteRunImport.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/siteEquapment/siteRunIndex.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/siteEquapment/siteRunTime.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/siteEquapment/siteRunView.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/siteEquapment/siteStateAdd.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/siteEquapment/siteStateEdit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/siteEquapment/siteStateFile.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/siteEquapment/siteStateIndex.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/system/actingIndex.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/system/dictionaryEdit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/system/dictionaryIndex.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/system/exportExcel.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/system/roleEdit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/system/roleIndex.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/system/textAdd.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/system/userAdd.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/system/userEdit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/system/userIndex.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/tlds/CheckP.tld" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/workflow/applicationTemplateAdd.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/workflow/applicationTemplateEdit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/workflow/applicationTemplateList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/workflow/flowApprove.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/workflow/flowApprovedHistory.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/workflow/flowApprovedHistoryPic.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/workflow/flowMyApplicationList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/workflow/flowMyTaskList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/workflow/flowSubmitApplication.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/workflow/flowTemplateList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/workflow/processDefinitionAdd.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/workflow/processDefinitionList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/close.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/Font.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/MainPage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/Style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/buttonstyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/openView.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/showText.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/zTreeStyle/img/checkbox.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/zTreeStyle/img/edit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/zTreeStyle/img/flag/10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/zTreeStyle/img/flag/1_close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/zTreeStyle/img/flag/1_open.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/zTreeStyle/img/flag/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/zTreeStyle/img/flag/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/zTreeStyle/img/flag/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/zTreeStyle/img/flag/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/zTreeStyle/img/flag/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/zTreeStyle/img/flag/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/zTreeStyle/img/flag/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/zTreeStyle/img/flag/9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/zTreeStyle/img/folder_Close.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/zTreeStyle/img/folder_Open.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/zTreeStyle/img/line_bottom.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/zTreeStyle/img/line_center.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/zTreeStyle/img/line_conn.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/zTreeStyle/img/line_top.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/zTreeStyle/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/zTreeStyle/img/minus_bottom.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/zTreeStyle/img/minus_center.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/zTreeStyle/img/minus_noLine.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/zTreeStyle/img/minus_root.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/zTreeStyle/img/minus_top.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/zTreeStyle/img/moveArrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/zTreeStyle/img/page.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/zTreeStyle/img/plus_bottom.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/zTreeStyle/img/plus_center.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/zTreeStyle/img/plus_noLine.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/zTreeStyle/img/plus_root.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/zTreeStyle/img/plus_top.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/zTreeStyle/img/radio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/zTreeStyle/img/remove.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/zTreeStyle/img/sim/10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/zTreeStyle/img/sim/1_close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/zTreeStyle/img/sim/1_open.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/zTreeStyle/img/sim/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/zTreeStyle/img/sim/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/zTreeStyle/img/sim/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/zTreeStyle/img/sim/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/zTreeStyle/img/sim/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/zTreeStyle/img/sim/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/zTreeStyle/img/sim/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/zTreeStyle/img/sim/9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/zTreeStyle/zTreeIcons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/css/zTreeStyle/zTreeStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/image.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/MenuIcon/daibanshiyi.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/MenuIcon/daiwoshenpi.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/MenuIcon/jiancetaijianzhu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/MenuIcon/jiancetaijianzhuguanli.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/MenuIcon/jishusheshiweihuguanli.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/MenuIcon/jishuziliaotuzhiguanli.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/MenuIcon/jueseguanli.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/MenuIcon/menu_arrow_close.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/MenuIcon/menu_arrow_open.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/MenuIcon/menu_arrow_single.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/MenuIcon/menu_line_2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/MenuIcon/menu_line_3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/MenuIcon/qicaoshenqing.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/MenuIcon/shebeigouzhijihua.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/MenuIcon/shebeijiaozhunjianxiu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/MenuIcon/shenpiliuchengguanli.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/MenuIcon/shenpiliuzhuanguanli.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/MenuIcon/shenqingmobanguanli.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/MenuIcon/shujuzidianguanli.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/MenuIcon/weihuqingkuang.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/MenuIcon/wodeshenqingchaxun.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/MenuIcon/xitongguanli.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/MenuIcon/yiqishebeiguanli.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/MenuIcon/yonghuguanli.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/MenuIcon/yunxingqingkuang.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/MenuIcon/zhandianjibenxinxi.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/MenuIcon/zhuandianshebeiyunxingguanli.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/MenuIcon/ziliaotuzhiguanli.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/add.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/attach.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/b-info.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/back1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/build.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/button_add.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/button_cancel.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/button_ok.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/button_view.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/check.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/cotNavGround.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/delete.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/doc.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/edit.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/gif.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/handle.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/headpic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/hotel_dire_arrowc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/i_del.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/i_edit.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/ie.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/index.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/loginbg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/menu03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/mima.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/mis_01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/open.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/remeber.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/sel1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/tablehead.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/title.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/titleline.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/yin.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/yonghu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/you.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/zhuyi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/zoom.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/images/zuo.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/pageUI.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/script/calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/script/calendarTime.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/script/changePage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/script/changePageBackUp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/script/function.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/script/highslide/graphics/controlbar2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/script/highslide/graphics/controlbar3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/script/highslide/graphics/controlbar4-hover.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/script/highslide/graphics/controlbar4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/script/highslide/graphics/fullexpand.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/script/highslide/graphics/loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/script/highslide/graphics/loader.white.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/script/highslide/graphics/outlines/Outlines.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/script/highslide/graphics/outlines/beveled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/script/highslide/graphics/outlines/drop-shadow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/script/highslide/graphics/outlines/outer-glow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/script/highslide/graphics/outlines/rounded-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/script/highslide/graphics/zoomin.cur" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/script/highslide/graphics/zoomout.cur" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/script/highslide/highslide-html.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/script/highslide/highslide-html.packed.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/script/highslide/highslide.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/script/highslide/highslide.packed.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/script/highslide/swfobject.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/script/jquery-1.4.2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/script/jquery-ztree-2.5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/script/limitedTextarea.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/script/listselect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/script/menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/script/menuData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/script/mztree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/script/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/script/pagination.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/script/pub.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/script/public.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/script/showText.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/script/tabletool.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/script/tool.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/script/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/script/validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/script/web_tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+    <list default="true" id="79210f06-7b3c-4cf8-8e54-9a9bfc0fb7fd" name="Default Changelist" comment="电力系统">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/controller/vo/SiteAddVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/dao/SiteInfoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pageUI1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/controller/vo/SiteAddVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/dao/DataChartDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/dao/DevicePlanDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/dao/SiteInfoDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/controller/vo/SiteAddVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/dao/SiteInfoDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/pageUI1.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/whx/elec8/ConstantsKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/ConstantsKeys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/whx/elec8/controller/SiteInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/controller/SiteInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/whx/elec8/dao/SIteInfoDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/whx/elec8/dao/SiteInfoDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/dao/SiteInfoDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/whx/elec8/service/SiteInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/service/SiteInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/whx/elec8/service/impls/SiteInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/whx/elec8/service/impls/SiteInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/equapment/planIndex.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/equapment/planIndex.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/equapment/planPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/equapment/planPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pageUI.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pageUI.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteInfoAdd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteInfoAdd.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteInfoEdit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteInfoEdit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteInfoExport.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteInfoExport.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteInfoImport.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteInfoImport.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteInfoIndex.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteInfoIndex.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteInfoPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteInfoPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/whx/elec8/ConstantsKeys.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/ConstantsKeys.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/whx/elec8/controller/SiteInfoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/controller/SiteInfoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/whx/elec8/dao/SIteInfoDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/dao/SIteInfoDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/whx/elec8/service/SiteInfoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/service/SiteInfoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/whx/elec8/service/impls/SiteInfoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/whx/elec8/service/impls/SiteInfoServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/ConstantsKeys.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/ConstantsKeys.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/controller/SiteInfoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/controller/SiteInfoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/dao/SIteInfoDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/dao/SIteInfoDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/service/SiteInfoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/service/SiteInfoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/service/impls/SiteInfoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/classes/com/whx/elec8/service/impls/SiteInfoServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/equapment/planIndex.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/equapment/planIndex.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/equapment/planPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/equapment/planPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/pageUI.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/pageUI.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/siteEquapment/siteInfoAdd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/siteEquapment/siteInfoAdd.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/siteEquapment/siteInfoEdit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/siteEquapment/siteInfoEdit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/siteEquapment/siteInfoExport.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/siteEquapment/siteInfoExport.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/siteEquapment/siteInfoImport.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/siteEquapment/siteInfoImport.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/siteEquapment/siteInfoIndex.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/siteEquapment/siteInfoIndex.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/siteEquapment/siteInfoPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/elec8-1.0-SNAPSHOT/WEB-INF/siteEquapment/siteInfoPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -915,10 +81,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/whx/elec8/controller/SiteInfoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="58" selection-start-line="58" selection-end-line="58" />
+            <state relative-caret-position="274">
+              <caret line="193" column="35" selection-start-line="193" selection-start-column="21" selection-end-line="193" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#5674#5675#0" expanded="true" />
+                <element signature="e#5727#5728#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -927,62 +95,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteInfoIndex.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5022">
-              <caret line="279" column="49" selection-start-line="279" selection-start-column="38" selection-end-line="279" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/whx/elec8/dao/SiteInfoDao.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/whx/elec8/service/impls/SiteInfoServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="42" column="31" lean-forward="true" selection-start-line="41" selection-start-column="77" selection-end-line="42" selection-end-column="31" />
+            <state relative-caret-position="188">
+              <caret line="391" column="114" selection-start-line="391" selection-start-column="62" selection-end-line="391" selection-end-column="114" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#form#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/whx/elec8/controller/vo/SiteInfoVo.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteInfoPage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="306">
+              <caret line="17" column="15" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/whx/elec8/service/impls/SiteInfoServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="449">
+              <caret line="356" column="23" selection-start-line="356" selection-start-column="23" selection-end-line="356" selection-end-column="23" />
               <folding>
-                <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#308#309#0" expanded="true" />
-                <element signature="e#346#347#0" expanded="true" />
-                <element signature="e#376#377#0" expanded="true" />
-                <element signature="e#448#449#0" expanded="true" />
-                <element signature="e#502#503#0" expanded="true" />
-                <element signature="e#548#549#0" expanded="true" />
-                <element signature="e#586#587#0" expanded="true" />
-                <element signature="e#620#621#0" expanded="true" />
-                <element signature="e#674#675#0" expanded="true" />
-                <element signature="e#720#721#0" expanded="true" />
-                <element signature="e#758#759#0" expanded="true" />
-                <element signature="e#792#793#0" expanded="true" />
-                <element signature="e#846#847#0" expanded="true" />
-                <element signature="e#892#893#0" expanded="true" />
-                <element signature="e#930#931#0" expanded="true" />
-                <element signature="e#964#965#0" expanded="true" />
-                <element signature="e#1018#1019#0" expanded="true" />
-                <element signature="e#1064#1065#0" expanded="true" />
-                <element signature="e#1108#1109#0" expanded="true" />
-                <element signature="e#1148#1149#0" expanded="true" />
-                <element signature="e#1214#1215#0" expanded="true" />
-                <element signature="e#1272#1273#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1008,7 +145,17 @@
       <find>defaltNoExportItems</find>
       <find>getAllPlan</find>
       <find>initflag</find>
+      <find>querySiteInfoDatas</find>
       <find>stationName</find>
+      <find>getStation</find>
+      <find>ddlname</find>
+      <find>1</find>
+      <find>getPageDatasCondition</find>
+      <find>expNameList</find>
+      <find>devPlanSearchVo</find>
+      <find>request</find>
+      <find>elecDevicePlans</find>
+      <find>contactType</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -1019,16 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/whx/elec8/domain/ElecPopedom.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/whx/elec8/utils/UtilSetUrl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/system/userIndex.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/whx/elec8/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/whx/elec8/service/impls/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/whx/elec8/utils/CheckPopeTag.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/system/dictionaryIndex.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/tlds/CheckP.tld" />
-        <option value="$PROJECT_DIR$/src/main/java/com/whx/elec8/interceptors/UserInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/equapment/planView.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/whx/elec8/utils/doPage/PageBean.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/equapment/planPage.xhtml" />
@@ -1036,12 +173,9 @@
         <option value="$PROJECT_DIR$/target/classes/com/whx/elec8/dao/DevicePlanDao.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/pageUI.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/whx/elec8/service/bo/ExportSettingItem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/whx/elec8/ConstantsKeys.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/equapment/planExport.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/whx/elec8/dao/DevicePlanDao.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/whx/elec8/utils/DateTimeUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/equapment/planPage.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/equapment/planIndex.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/springmvc-config.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/whx/elec8/service/DevicePlanService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/whx/elec8/controller/DevicePlanController.java" />
@@ -1060,16 +194,29 @@
         <option value="$PROJECT_DIR$/src/main/java/com/whx/elec8/service/impls/DataChartServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/dataChart/dataChartIndex.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/whx/elec8/domain/ElecStation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/whx/elec8/service/impls/DevicePlanServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteInfoView.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/whx/elec8/controller/vo/SiteInfoVo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/whx/elec8/service/SiteInfoService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/script/pub.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/equapment/planIndex.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/whx/elec8/dao/SIteInfoDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/whx/elec8/ConstantsKeys.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteInfoExport.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/equapment/planPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/whx/elec8/controller/vo/SiteInfoVo.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/script/page1.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pageUI1.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/whx/elec8/dao/SiteInfoDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pageUI.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/whx/elec8/service/impls/DevicePlanServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteInfoImport.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/whx/elec8/controller/vo/SiteAddVo.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteInfoAdd.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteInfoEdit.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/whx/elec8/dao/SiteInfoDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/whx/elec8/service/SiteInfoService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/whx/elec8/service/impls/SiteInfoServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/whx/elec8/controller/SiteInfoController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteInfoIndex.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteInfoPage.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/whx/elec8/dao/SiteInfoDao.xml" />
       </list>
     </option>
   </component>
@@ -1099,21 +246,9 @@
           <item name="elec8" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="elec8" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
       </expand>
       <select />
     </treeState>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
-    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
@@ -1202,16 +337,6 @@
               <item name="elec2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="elec8" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impls" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="elec2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="elec2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1235,8 +360,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1245,22 +370,22 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565167615447" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.itszt.elec8.utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\ideaWorkplace\elec2\src\main\webapp\WEB-INF" />
+      <recent name="G:\ideaWorkplace\elec2\src\main\webapp\script" />
       <recent name="G:\ideaWorkplace\elec8\src\main\resources" />
       <recent name="G:\ideaWorkplace\elec8\src\main\java\com\whx\elec8\utils" />
       <recent name="G:\ideaWorkplace\elec8\src\main\webapp\WEB-INF\equapment" />
-      <recent name="G:\ideaWorkplace\elec8\src\main\webapp\script" />
-      <recent name="G:\ideaWorkplace\elec8\src\main\webapp\WEB-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1394,18 +519,37 @@
       <workItem from="1566524709852" duration="6242000" />
       <workItem from="1566540275992" duration="1857000" />
       <workItem from="1566548931085" duration="683000" />
-      <workItem from="1566561559372" duration="364000" />
+      <workItem from="1566561559372" duration="6787000" />
+      <workItem from="1566605261098" duration="15056000" />
+      <workItem from="1566623220198" duration="22619000" />
+      <workItem from="1566691861855" duration="13168000" />
     </task>
+    <task id="LOCAL-00001" summary="电力系统">
+      <created>1566562435413</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566562435413</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183175000" />
+    <option name="totallyTimeSpent" value="240441000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.21785174" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.19742814" />
       <window_info id="Structure" order="1" sideWeight="0.5008183" side_tool="true" weight="0.21860817" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1415,16 +559,16 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5139116" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.53846157" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.51311475" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.5442623" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.2885246" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3299363" />
-      <window_info anchor="bottom" id="Spring" order="8" weight="0.3289689" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32786885" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.3" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.5622951" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3289689" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="14" />
@@ -1441,185 +585,62 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Maven" order="10" weight="0.32980332" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.1913767" />
+      <window_info id="Structure" order="1" sideWeight="0.5008183" side_tool="true" weight="0.21860817" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.5014006" side_tool="true" weight="0.21860817" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.51311475" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.47868854" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.2885246" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3299363" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32786885" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.3" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3289689" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3289689" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Preview" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.3297568" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Maven" order="10" weight="0.32980332" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="电力系统" />
+    <option name="LAST_COMMIT_MESSAGE" value="电力系统" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
       <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
         <watch expression="elecRoles" />
+        <watch expression="siteInfoVo.attributionGround" />
+        <watch expression="siteInfoVo.attributionGround" />
+        <watch expression="siteInfoVo.contactType" />
       </configuration>
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/whx/elec8/controller/DDLController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/whx/elec8/dao/DataChartDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dataChart/dataChartAddList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="65" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="42" column="41" lean-forward="true" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="50" column="11" lean-forward="true" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dataChart/dataChartAdd.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <element signature="e#1842#1855#0" expanded="true" />
-            <element signature="e#2094#2114#0" expanded="true" />
-            <element signature="e#2197#2224#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/solr.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" selection-start-column="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/whx/elec8/domain/ElecFileupload.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="26" />
-          <folding>
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/whx/elec8/dao/DataChartDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/whx/elec8/service/DataChartService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/solr/solr-solrj/4.10.1/solr-solrj-4.10.1.jar!/org/apache/solr/client/solrj/request/QueryRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/solr/solr-solrj/4.10.1/solr-solrj-4.10.1.jar!/org/apache/solr/client/solrj/SolrServer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="147" selection-start-line="147" selection-end-line="147" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/solr/solr-solrj/4.10.1/solr-solrj-4.10.1.jar!/org/apache/solr/client/solrj/SolrRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.11.RELEASE/spring-aop-4.3.11.RELEASE-sources.jar!/org/springframework/aop/support/AopUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="337" selection-start-line="337" selection-end-line="337" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.11.RELEASE/spring-aop-4.3.11.RELEASE-sources.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="238" selection-start-line="238" selection-end-line="238" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.11.RELEASE/spring-web-4.3.11.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="215" selection-start-line="215" selection-end-line="215" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.11.RELEASE/spring-webmvc-4.3.11.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="834" selection-start-line="834" selection-end-line="834" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.11.RELEASE/spring-webmvc-4.3.11.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="906" selection-start-line="906" selection-end-line="906" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.11.RELEASE/spring-webmvc-4.3.11.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="1004" selection-start-line="1004" selection-end-line="1004" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dataChart/dataChartIndex.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="86" column="75" selection-start-line="86" selection-start-column="75" selection-end-line="86" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1664,55 +685,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/equapment/planExport.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="215" column="61" selection-start-line="215" selection-start-column="42" selection-end-line="215" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteInfoExport.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="199" column="32" selection-start-line="199" selection-start-column="32" selection-end-line="199" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/whx/elec8/service/impls/DataChartServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/whx/elec8/service/DDlService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/whx/elec8/service/DevicePlanService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/whx/elec8/domain/ElecStation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="33" column="30" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="30" />
-          <folding>
-            <element signature="e#653#654#0" expanded="true" />
-            <element signature="e#685#686#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1723,55 +699,159 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/whx/elec8/dao/DevicePlanDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/script/pub.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        <state relative-caret-position="380">
+          <caret line="282" lean-forward="true" selection-start-line="282" selection-end-line="282" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/script/page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/whx/elec8/utils/doPage/UtilPageBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/equapment/planExport.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="851">
+          <caret line="263" column="68" selection-start-line="263" selection-start-column="63" selection-end-line="263" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteInfoExport.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1473">
+          <caret line="182" column="30" lean-forward="true" selection-start-line="182" selection-start-column="30" selection-end-line="182" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#strong#0;n#font#0;n#td#0;n#tr#0;n#table#0;n#FORM#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/whx/elec8/controller/vo/DevPlanSearchVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/whx/elec8/dao/DevicePlanDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/script/function.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="171" column="9" selection-start-line="171" selection-start-column="9" selection-end-line="171" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#TEXTAREA#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#TEXTAREA#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#TEXTAREA#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/equapment/planPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="26" column="161" selection-start-line="26" selection-start-column="161" selection-end-line="26" selection-end-column="161" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/script/page1.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/whx/elec8/service/DevicePlanService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteInfoPage.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/whx/elec8/dao/SiteInfoDao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-434">
-          <caret line="9" column="175" selection-start-line="9" selection-start-column="175" selection-end-line="9" selection-end-column="175" />
+        <state relative-caret-position="331">
+          <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/equapment/planPage.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/whx/elec8/ConstantsKeys.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        <state relative-caret-position="353">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17.jar!/org/apache/poi/xssf/usermodel/XSSFSheet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="525" selection-start-line="525" selection-end-line="525" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/whx/elec8/domain/ElecDevicePlan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2049">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/equapment/planIndex.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="931">
-          <caret line="367" column="12" lean-forward="true" selection-start-line="367" selection-start-column="12" selection-end-line="367" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/script/page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
-          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        <state relative-caret-position="158">
+          <caret line="278" column="157" selection-start-line="278" selection-start-column="157" selection-end-line="278" selection-end-column="157" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pageUI.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="18">
+          <caret line="1" column="65" lean-forward="true" selection-start-line="1" selection-start-column="65" selection-end-line="1" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/whx/elec8/controller/DevicePlanController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pageUI1.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        <state relative-caret-position="18">
+          <caret line="1" column="48" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/whx/elec8/dao/DevicePlanDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/equapment/planImport.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="60" column="14" lean-forward="true" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/whx/elec8/service/impls/DataChartServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-684">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1780,8 +860,182 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/whx/elec8/service/impls/DevicePlanServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="82" column="14" lean-forward="true" selection-start-line="82" selection-start-column="14" selection-end-line="82" selection-end-column="14" />
+        <state relative-caret-position="-620">
+          <caret line="254" column="37" lean-forward="true" selection-start-line="254" selection-start-column="37" selection-end-line="254" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteInfoImport.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="68" column="7" lean-forward="true" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/whx/elec8/service/bo/ExportSettingItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/whx/elec8/controller/vo/SiteInfoVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <folding>
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteInfoAdd.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="93" column="47" selection-start-line="93" selection-start-column="47" selection-end-line="93" selection-end-column="47" />
+          <folding>
+            <element signature="n#style#0;n#font#1;n#td#0;n#tr#0;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/whx/elec8/controller/DevicePlanController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="152" column="1" lean-forward="true" selection-start-line="152" selection-start-column="1" selection-end-line="152" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/whx/elec8/controller/RoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-37">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/whx/elec8/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-303">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="184" selection-start-line="184" selection-end-line="184" />
+          <folding>
+            <element signature="e#6052#6053#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/whx/elec8/domain/ElecStation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#685#686#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/whx/elec8/controller/vo/SiteAddVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+          <folding>
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
+            <element signature="e#858#859#0" expanded="true" />
+            <element signature="e#897#898#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#988#989#0" expanded="true" />
+            <element signature="e#1036#1037#0" expanded="true" />
+            <element signature="e#1074#1075#0" expanded="true" />
+            <element signature="e#1108#1109#0" expanded="true" />
+            <element signature="e#1162#1163#0" expanded="true" />
+            <element signature="e#1208#1209#0" expanded="true" />
+            <element signature="e#1246#1247#0" expanded="true" />
+            <element signature="e#1280#1281#0" expanded="true" />
+            <element signature="e#1334#1335#0" expanded="true" />
+            <element signature="e#1380#1381#0" expanded="true" />
+            <element signature="e#1418#1419#0" expanded="true" />
+            <element signature="e#1452#1453#0" expanded="true" />
+            <element signature="e#1506#1507#0" expanded="true" />
+            <element signature="e#1552#1553#0" expanded="true" />
+            <element signature="e#1590#1591#0" expanded="true" />
+            <element signature="e#1624#1625#0" expanded="true" />
+            <element signature="e#1678#1679#0" expanded="true" />
+            <element signature="e#1724#1725#0" expanded="true" />
+            <element signature="e#1768#1769#0" expanded="true" />
+            <element signature="e#1808#1809#0" expanded="true" />
+            <element signature="e#1874#1875#0" expanded="true" />
+            <element signature="e#1932#1933#0" expanded="true" />
+            <element signature="e#1996#1997#0" expanded="true" />
+            <element signature="e#2042#2043#0" expanded="true" />
+            <element signature="e#2080#2081#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2.jar!/org/mybatis/spring/SqlSessionTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="157" selection-start-line="157" selection-end-line="157" />
+          <folding>
+            <element signature="e#6039#6040#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.2.8/mybatis-3.2.8.jar!/org/apache/ibatis/session/defaults/DefaultSqlSessionFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+          <folding>
+            <element signature="e#2561#2562#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.2.8/mybatis-3.2.8.jar!/org/apache/ibatis/binding/MapperProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteInfoEdit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1005">
+          <caret line="71" column="49" selection-start-line="71" selection-start-column="49" selection-end-line="71" selection-end-column="49" />
+          <folding>
+            <element signature="n#style#0;n#font#1;n#td#0;n#tr#0;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/whx/elec8/dao/SiteInfoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="22" column="54" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1790,94 +1044,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/whx/elec8/service/SiteInfoService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="423">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/whx/elec8/dao/SIteInfoDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/whx/elec8/dao/DevicePlanDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/whx/elec8/controller/SiteInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteInfoIndex.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5022">
-          <caret line="279" column="49" selection-start-line="279" selection-start-column="38" selection-end-line="279" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/whx/elec8/dao/SiteInfoDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/whx/elec8/controller/vo/SiteInfoVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#586#587#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#674#675#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#758#759#0" expanded="true" />
-            <element signature="e#792#793#0" expanded="true" />
-            <element signature="e#846#847#0" expanded="true" />
-            <element signature="e#892#893#0" expanded="true" />
-            <element signature="e#930#931#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
-            <element signature="e#1018#1019#0" expanded="true" />
-            <element signature="e#1064#1065#0" expanded="true" />
-            <element signature="e#1108#1109#0" expanded="true" />
-            <element signature="e#1148#1149#0" expanded="true" />
-            <element signature="e#1214#1215#0" expanded="true" />
-            <element signature="e#1272#1273#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/whx/elec8/service/impls/SiteInfoServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="42" column="31" lean-forward="true" selection-start-line="41" selection-start-column="77" selection-end-line="42" selection-end-column="31" />
+        <state relative-caret-position="449">
+          <caret line="356" column="23" selection-start-line="356" selection-start-column="23" selection-end-line="356" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/whx/elec8/controller/SiteInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="193" column="35" selection-start-line="193" selection-start-column="21" selection-end-line="193" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5674#5675#0" expanded="true" />
+            <element signature="e#5727#5728#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteInfoIndex.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="391" column="114" selection-start-line="391" selection-start-column="62" selection-end-line="391" selection-end-column="114" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#form#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/siteEquapment/siteInfoPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="15" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="15" />
         </state>
       </provider>
     </entry>
