@@ -13,7 +13,7 @@
         <Junit.version>3.8.1</Junit.version>
         <Mybatis.version>3.2.8</Mybatis.version>
         <C3P0.version>0.9.5.2</C3P0.version>
-        <MySQLJ.version>5.1.18</MySQLJ.version>
+        <MySQLJ.version>8.0.16</MySQLJ.version>
         <Log4J.version>1.2.17</Log4J.version>
         <Spring.version>4.3.11.RELEASE</Spring.version>
         <Mybatis-Spring.version>1.2.2</Mybatis-Spring.version>
