@@ -26,7 +26,7 @@
         <jstl.version>1.2</jstl.version>
         <lang3.version>3.8.1</lang3.version>
         <poi-version>3.17</poi-version>
-        <commons-io.version>1.3.2</commons-io.version>
+        <commons-io.version>2.7</commons-io.version>
         <commons-fileupload.version>1.2.1</commons-fileupload.version>
         <solrj-version>4.10.1</solrj-version>
     </properties>
