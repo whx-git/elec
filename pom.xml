@@ -15,7 +15,7 @@
         <C3P0.version>0.9.5.2</C3P0.version>
         <MySQLJ.version>5.1.18</MySQLJ.version>
         <Log4J.version>1.2.17</Log4J.version>
-        <Spring.version>4.3.11.RELEASE</Spring.version>
+        <Spring.version>5.3.18</Spring.version>
         <Mybatis-Spring.version>1.2.2</Mybatis-Spring.version>
         <jackson.version>2.8.8</jackson.version>
         <jsp.version>2.3.1</jsp.version>
